@@ -8,14 +8,23 @@
     flex-direction: column;
     width: 100%;
 }
+menu {
+    padding: 0;
+}
 .navbar {
     display: flex;
     background-color: rgb(64, 163,91);
 }
-.navbar > div {
+.navbar > div.left {
     margin: 4px 2px 4px 2px;
     padding: 7px;
     background-color: #8cc79d;
+}
+.navbar > div.image {
+    justify-content: center;
+}
+.navbar > div.right {
+    justify-content: flex-end;
 }
 .settings {
     display: flex;
