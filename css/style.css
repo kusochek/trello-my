@@ -1,6 +1,7 @@
 
 * {
     box-sizing: border-box;
+    font-family: Helvetica ;
 }
   
 body {
@@ -19,6 +20,7 @@ main {
     background-color:  rgb(75, 191,107);      
 }
 ul {
+    background-color:  rgb(64, 163,91);
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -34,6 +36,7 @@ li {
     float: left;
     border-right: 4px solid #40a35b;
     border-top: 4px solid #40a35b;
+    background-color:  rgb(64, 163,91);
 }
 li i {
     display: block;
@@ -46,6 +49,7 @@ li i {
 li.right {
     float: right;
   }
+
 img.logo {
     opacity: 0.5;
   }
@@ -53,11 +57,11 @@ img.logo:hover {
     opacity: 0.8;
 }
 li.image {
-position: absolute;
-left: 675px;
-top: 3px;
+    position: absolute;
+    left: 675px;
+    top: 3px;    
 }
-input[type=text] {
+header input[type=text] {
     width: 135%;
     box-sizing: border-box;
     border: 0;
@@ -72,15 +76,17 @@ input[type=text] {
     -webkit-transition: width 0.1s ease-in-out;
     transition: width 0.1s ease-in-out;
 }  
-input[type=text]:focus {
-    width: 250%;
+header input[type=text]:hover {
+    background-color: #8cc79d;
+}
+header input[type=text]:focus {
+    width: 280%;
     background-color: white;
     outline: 0;
     outline-offset: 0;
+    background-image: none;
 }
-input[type=text]:hover {
-    background-color: #8cc79d;
-}
+
 a.first-icon:link {
     color: white;
 }
@@ -97,4 +103,60 @@ a.first-icon:visited {
     font-size: 15px;
     float: right;
     padding: 2px 0 0 8px;
+    background-color: #79be8c;
+}
+header i:hover {
+    background-color: #66b57c;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #4bbf6b;
+    display: flex;
+    padding: 10px 10px 10px 0px;
+  }
+.topnav div {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1px 10px;
+    border-radius: 3px;
+}
+.name input[type=text] {
+    width: 80px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 3px;
+    font-size: 17px;
+    background-color: #4bbf6b;
+    color: white;
+    padding: 5px;
+    font-weight: 900;
+    text-align: center;
+}
+.name input[type=text]:hover {
+    background-color: #34854b;
+}
+.name input[type=text]:focus {
+    background-color: white;
+    color: black;
+}
+.button {
+    background-color: #4bbf6b;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    cursor: pointer;
+  }
+.button {
+    display: flex;
+    vertical-align: middle;
+}
+.button:hover {
+    background-color: #34854b;
+}
+.button:focus {
+    background-color: #34854b;
+    color: yellow;
 }
