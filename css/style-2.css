@@ -15,12 +15,34 @@ menu {
     display: flex;
     background-color: rgb(64, 163,91);
     justify-content: space-between;
+    padding: 2px;
 }
 .navbar > div {
-    margin: 4px 2px 4px 2px;
-    padding: 7px;
-    background-color: #8cc79d;
     display: flex;
+}
+.left > div {
+    background-color: #8cc79d;
+    padding: 7px 12px;
+    margin: 2px;
+    border-radius: 3px;
+}
+.right > div {
+    background-color: #8cc79d;
+    padding: 7px 12px;
+    margin: 2px;
+    border-radius: 3px;                        
+}
+.center > div {
+    background-color: #8cc79d;
+    padding: 7px 12px;
+    margin: 2px;
+    border-radius: 3px;
+}
+.doski {
+    flex-basis:100px;
+}
+.search {
+    flex-basis:300px;
 }
 
 .settings {
