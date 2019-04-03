@@ -14,24 +14,15 @@ menu {
 .navbar {
     display: flex;
     background-color: rgb(64, 163,91);
+    justify-content: space-between;
 }
 .navbar > div {
     margin: 4px 2px 4px 2px;
     padding: 7px;
     background-color: #8cc79d;
-}
-.left {
     display: flex;
-    justify-content: flex-start;
 }
-.center {
-    display: flex;
-    justify-content: center;
-}
-.right {
-    display: flex;
-    justify-content: flex-end;
-}
+
 .settings {
     display: flex;
     background-color: #4bbf6b;
