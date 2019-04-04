@@ -74,7 +74,7 @@ a.first-icon:visited {
     font-weight: bolder;
 }
 header input[type=text] {
-    width: 135%;
+    width: 138%;
     box-sizing: border-box;
     border: 0;
     border-radius: 3px;
@@ -105,11 +105,14 @@ header input[type=text]:focus {
     background-color: #66b57c;
 }
 .circle:hover {
-    background-color: #cee6e7;
+    background-color: #c1cbcf;
+}
+.info:hover {
+    background-color: #66b57c;
 }
 .doski {
     display: flex;
-    padding: 7px 9px;
+    padding: 8px 9px 7px;
 }
 .dask {
     font-family: HelveticaNeueCyr-Black;
