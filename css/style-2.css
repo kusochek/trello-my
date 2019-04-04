@@ -1,6 +1,6 @@
 
 * {
-    font-family: Helvetica ;
+    font-family: sans-serif;
     margin: 0;
 }
 @font-face {
@@ -125,18 +125,65 @@ header input[type=text]:focus {
 .dask:hover {
     background-color: #66b57c;
 }
-@font-face {
-    font-family: HelveticaNeueCyr-Black;
-    src: url(HelveticaNeueCyr-Black.otf);
- }
-
-
-
 .settings {
     display: flex;
     background-color: #4bbf6b;
     margin: 0;
+    justify-content: space-between;
+    padding: 5px;
 }
+    .settings > div {
+        display: flex;
+    }
+    .left2 > div {
+        margin: 2px;
+        align-self: center;
+    }
+    .name input[type=text] {
+        width: 80px;
+        box-sizing: border-box;
+        border: 0;
+        border-radius: 3px;
+        font-size: 18px;
+        background-color: #4bbf6b;
+        color: white;
+        padding: 5px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .name input[type=text]:hover {
+        background-color: #34854b;
+    }
+    .name input[type=text]:focus {
+        background-color: white;
+        color: black;
+    }
+    .button {
+        background-color: #4bbf6b;
+        color: white;
+        padding: 10px;
+        border-radius: 3px;
+        font-size: 11px;
+        cursor: pointer;
+      }
+        .button:hover {
+            background-color: #34854b;
+        }
+        .button:active {
+        background-color: #6baa7d;
+        color: yellow;
+        }
+    .person {
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        padding: 9px;
+        border-radius: 3px;
+    }
+    .person:hover {
+        background-color: #34854b;        
+    }
+
 .columns {
     display: flex;
     background-color: #4bbf6b;
