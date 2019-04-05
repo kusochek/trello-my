@@ -128,7 +128,6 @@ header input[type=text]:focus {
 .settings {
     display: flex;
     background-color: #4bbf6b;
-    margin: 0;
     justify-content: space-between;
     padding: 5px;
 }
@@ -136,7 +135,7 @@ header input[type=text]:focus {
         display: flex;
     }
     .left2 > div {
-        margin: 2px;
+        margin: 2px 5px;
         align-self: center;
     }
     .name input[type=text] {
@@ -161,7 +160,7 @@ header input[type=text]:focus {
     .button {
         background-color: #4bbf6b;
         color: white;
-        padding: 10px;
+        padding: 9px;
         border-radius: 3px;
         font-size: 11px;
         cursor: pointer;
@@ -177,15 +176,85 @@ header input[type=text]:focus {
         color: white;
         font-size: 14px;
         text-align: center;
-        padding: 9px;
+        padding: 8px;
         border-radius: 3px;
     }
     .person:hover {
         background-color: #34854b;        
     }
+    .privat {
+        display: flex;
+        padding: 8px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        padding: 8px;
+        border-radius: 3px;
+        font-family: sans-serif;
+    }
+    .privaty {
+        float: right;
+        padding: 2px 0px 0px 8px;
+        font-family: sans-serif;
+    }
+    .privat:hover {
+        background-color: #34854b;
+    }
+.circle2 {
+    font-size: 6px;
+    color: black;
+    border-radius: 50%;
+    padding: 6px 9px;
+    margin: 4px;
+    background-color: #dfe3e6;
+    font-size: 13px;
+    font-weight: bolder;
+    position: relative;
+}
+.circle2 i {
+    font-size: 10px;
+    position: absolute;
+    bottom: 1px;
+    right: 3px;
+}
+.circle2:hover {
+    background-color: #c1cbcf;
+}
+.invite {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #8cc79d;
+}
+.invite:hover {
+    background-color: #34854b;
+}
+.menu {
+    display: flex;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    align-self: center;
+}
+.menus {
+    float: right;
+    padding: 2px 0px 0px 8px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.menu:hover {
+    background-color: #34854b;
+}
 
 .columns {
     display: flex;
     background-color: #4bbf6b;
+    padding: 400px
 }
   
