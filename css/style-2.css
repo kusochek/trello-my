@@ -273,7 +273,5 @@ header input[type=text]:focus {
 
 .columns {
     display: flex;
-    background-color: #4bbf6b;
-    padding: 342px 300px;
 }
   
