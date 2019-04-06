@@ -113,6 +113,7 @@ header input[type=text]:focus {
 .doski {
     display: flex;
     padding: 8px 9px 7px;
+    position: relative;
 }
 .dask {
     font-family: HelveticaNeueCyr-Black;
@@ -124,6 +125,27 @@ header input[type=text]:focus {
 }
 .dask:hover {
     background-color: #66b57c;
+}
+.dropdown-doski {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    flex-direction: column;
+  }
+.dropdown-doski > div {
+    display: flex
+}
+.doski:hover .dropdown-doski {
+    display: block;
+  }
+.searchdosk .favorite .ago .privatdoski .list {
+    display: flex;
+    flex-direction: column;
+    color: black;
 }
 .settings {
     display: flex;
