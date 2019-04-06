@@ -1,0 +1,31 @@
+
+.navbar {
+    font-family: HelveticaNeueCyr-Black;
+    letter-spacing: -1px;
+    font-size: 15px;
+}
+
+.navbar > div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  border-radius: 2px;
+  color: white;
+  padding: 7px;
+  background-color: #79be8c;
+  text-decoration: none;
+  margin: 0 2px;
+  min-width: 20px;
+  text-align: center;
+} 
+
+.navbar a i + span {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.navbar a:hover {
+  background-color: #66b57c;
+}
