@@ -29,3 +29,9 @@
 .navbar a:hover {
   background-color: #66b57c;
 }
+.logo a{
+  background: none;
+}
+.logo a:hover {
+  background: none;
+}
