@@ -28,16 +28,20 @@
 //    ],
 //  }
 
-
+function myFunction() { 
  var first = document.createElement('div');
  first.classList.add('first');
+
  var textLeft = document.createElement('span');
  textLeft.classList.add('textLeft');
- textLeft.innerText = 'В процессе'
+
+ textLeft.innerText = 'Список дел';
+
  first.appendChild(textLeft);
  element.appendChild(first);
  var element = document.getElementsById('column');
 
+}
 //  const row = document.createElement('div');
 //  row.classList.add('row');
 
