@@ -29,6 +29,8 @@
 //  }
 
 function myFunction() { 
+ var allNotes = document.querySelector('.column');
+
  var first = document.createElement('div');
  first.classList.add('first');
 
@@ -47,8 +49,9 @@ function myFunction() {
  first.appendChild(textLeft);
  first.appendChild(elIcon);
  elIcon.appendChild(fasFaEllipsis);
- element.appendChild(first);
- var element = document.getElementsById('column');
+
+ allNotes.appendChild(first);
+ allNotes.innerHTML += note;
 
 }
 //  const row = document.createElement('div');
