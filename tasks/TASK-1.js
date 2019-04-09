@@ -27,3 +27,31 @@
     },
    ],
  }
+document.getElementsByClassName('column');
+allert ();
+
+ const first = document.createElement('div');
+ first.classList.add('first');
+
+ const row = document.createElement('div');
+ row.classList.add('row');
+
+ const row = document.createElement('div');
+ row.classList.add('row');
+
+ const row = document.createElement('div');
+ row.classList.add('row');
+
+ const plusText = document.createElement('div');
+ plusText.classList.add('plusText');
+
+ const fieldText = document.createElement('div');
+ fieldText.classList.add('fieldText');
+
+ const inputText = document.createElement('input');
+ inputText.classList.add('.plustext input[type=text]');
+
+ const buttonAdd = document.createElement('button');
+ const fasFaPlus = document.createElement('i');
+ fasFaPen.classList.add('fas');
+ fasFaPen.classList.add('fa-plus');

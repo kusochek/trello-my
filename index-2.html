@@ -5,6 +5,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style-2.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/column.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
@@ -57,11 +59,57 @@
 </menu>
 <container>
     <div class="columns">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
+        <div class="column">
+            <!-- <div class="first">
+                <div><span class="textleft">Список дел</span></div>
+                <div class="icon"><i class="fas fa-ellipsis-h"></i></div>
+            </div>
+            <div class="rows">
+                <div class="row">
+                    <div>dddd</div>
+                    <div class="second"><i class="fas fa-pen"></i></div>
+                </div>
+                <div class="row">
+                    <div>dddd</div>
+                    <div class="second"><i class="fas fa-pen"></i></div>
+                </div>
+                <div class="row">
+                    <div>dddd</div>
+                    <div class="second"><i class="fas fa-pen"></i></div>
+                </div>
+                <div class="row">
+                    <div>dddd</div>
+                    <div class="second"><i class="fas fa-pen"></i></div>
+                </div>
+            </div>
+            <div class="plustext">
+            <div>
+                <form class="plustext">
+                    <input type="text" id="name" placeholder="Добавте запись">
+                </form>
+            </div>
+            <div><a onclick="newNote()" href="#"><i class='fas fa-plus'></i></a></div>
+            </div> -->
+        </div>
+        <div class="column">
+            <div class="first">
+                <div><span class="textleft">В процессе</span></div>
+                <div class="icon"><i class="fas fa-ellipsis-h"></i></div></div>
+            <a href="#"><i class='fas fa-plus'></i><span>Добавить еще одну картоку</span></a>
+        </div>
+        <div class="column">
+            <div class="first">
+                <div><span class="textleft">Готово</span></div>
+                <div class="icon"><i class="fas fa-ellipsis-h"></i></div>
+            </div>
+            <a href="#"><i class='fas fa-plus'></i><span>Добавить еще одну картоку</span></a>
+        </div>
     </div>
 </container>
 </div>
+
+
+<script src="js/script.js"></script>
+<script src="tasks/TASK-1.js"></script>
 </body>
 </html>
