@@ -28,7 +28,7 @@
 //    ],
 //  }
 
-function myFunction() { 
+
  var allNotes = document.querySelector('.column');
 
  var first = document.createElement('div');
@@ -42,7 +42,7 @@ function myFunction() {
 
  var fasFaEllipsis = document.createElement('i');
  fasFaEllipsis.classList.add('fas');
- fasFaEllipsisn.classList.add('fa-ellipsis-h');
+ fasFaEllipsis.classList.add('fa-ellipsis-h');
 
  textLeft.innerText = 'Список дел';
 
@@ -51,9 +51,9 @@ function myFunction() {
  elIcon.appendChild(fasFaEllipsis);
 
  allNotes.appendChild(first);
- allNotes.innerHTML += note;
 
-}
+ 
+
 //  const row = document.createElement('div');
 //  row.classList.add('row');
 
