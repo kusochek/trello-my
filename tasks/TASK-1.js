@@ -33,11 +33,20 @@ function myFunction() {
  first.classList.add('first');
 
  var textLeft = document.createElement('span');
- textLeft.classList.add('textLeft');
+ textLeft.classList.add('textleft');
+
+ var elIcon = document.createElement('div');
+ elIcon.classList.add('icon');
+
+ var fasFaEllipsis = document.createElement('i');
+ fasFaEllipsis.classList.add('fas');
+ fasFaEllipsisn.classList.add('fa-ellipsis-h');
 
  textLeft.innerText = 'Список дел';
 
  first.appendChild(textLeft);
+ first.appendChild(elIcon);
+ elIcon.appendChild(fasFaEllipsis);
  element.appendChild(first);
  var element = document.getElementsById('column');
 
