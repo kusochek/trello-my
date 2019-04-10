@@ -25,6 +25,22 @@
 //       text: "заметка 4",
 //       highlight: false,
 //     },
+//     {
+//       text: "заметка 5",
+//       highlight: false,
+//     },
+//     {
+//       text: "заметка 6",
+//       highlight: false,
+//     },
+//     {
+//       text: "заметка 7",
+//       highlight: true,
+//     },
+//     {
+//       text: "заметка 8",
+//       highlight: false,
+//     },
 //    ],
 //  }
 
