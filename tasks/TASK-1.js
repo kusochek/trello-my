@@ -29,29 +29,6 @@
 //  }
 
 
-                            //  var allNotes = document.querySelector('.column');
-
-                            //  var first = document.createElement('div');
-                            //  first.classList.add('first');
-
-                            //  var textLeft = document.createElement('span');
-                            //  textLeft.classList.add('textleft');
-
-                            //  var elIcon = document.createElement('div');
-                            //  elIcon.classList.add('icon');
-
-                            //  var fasFaEllipsis = document.createElement('i');
-                            //  fasFaEllipsis.classList.add('fas');
-                            //  fasFaEllipsis.classList.add('fa-ellipsis-h');
-
-                            //  textLeft.innerText = 'Список дел';
-
-                            //  first.appendChild(textLeft);
-                            //  first.appendChild(elIcon);
-                            //  elIcon.appendChild(fasFaEllipsis);
-
-                            //  allNotes.appendChild(first);
-
  
  const allNotes = document.querySelector('.column .rows');
 
