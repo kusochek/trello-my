@@ -6,9 +6,9 @@
 //  * В начале скрипта добавь тот обьект, что ниже и отрисуй список заметок из него. 
 //  * Если у заметки флаг "highligh" установлен в true, нужно визуально (любым способом) выделять ее среди других
 //  */
- var notesData = document.querySelector('.column .rows');
+//  const notesData = document.querySelector('.column .rows');
  var txt = '';
- var notesData = {
+ const notesData = {
    items: [
     {
       text: "заметка 1",
@@ -51,6 +51,7 @@
  }
   var note = `<div class="row"><div></div><div class="second"><i class="fas fa-pen"></i></div></div>`;
   notesData.innerHTML += note;
+
 // var notesData, items, text, i;
 // for (i=0; i < 8; i++) {
 //  notesData.items += text + i + '<br>';
