@@ -45,7 +45,6 @@
    ],
  }
  notesData.items.forEach(myFunction);
- document.getElementsByClassName('.column .rows').innerHTML = txt;
  function myFunction (value, index, array) {
   txt = txt + value + "<br>"; 
  }
