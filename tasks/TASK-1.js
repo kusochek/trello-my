@@ -29,80 +29,98 @@
 //  }
 
 
- var allNotes = document.querySelector('.column');
+                            //  var allNotes = document.querySelector('.column');
 
- var first = document.createElement('div');
- first.classList.add('first');
+                            //  var first = document.createElement('div');
+                            //  first.classList.add('first');
 
- var textLeft = document.createElement('span');
- textLeft.classList.add('textleft');
+                            //  var textLeft = document.createElement('span');
+                            //  textLeft.classList.add('textleft');
 
- var elIcon = document.createElement('div');
- elIcon.classList.add('icon');
+                            //  var elIcon = document.createElement('div');
+                            //  elIcon.classList.add('icon');
 
- var fasFaEllipsis = document.createElement('i');
- fasFaEllipsis.classList.add('fas');
- fasFaEllipsis.classList.add('fa-ellipsis-h');
+                            //  var fasFaEllipsis = document.createElement('i');
+                            //  fasFaEllipsis.classList.add('fas');
+                            //  fasFaEllipsis.classList.add('fa-ellipsis-h');
 
- textLeft.innerText = 'Список дел';
+                            //  textLeft.innerText = 'Список дел';
 
- first.appendChild(textLeft);
- first.appendChild(elIcon);
- elIcon.appendChild(fasFaEllipsis);
+                            //  first.appendChild(textLeft);
+                            //  first.appendChild(elIcon);
+                            //  elIcon.appendChild(fasFaEllipsis);
 
- allNotes.appendChild(first);
+                            //  allNotes.appendChild(first);
 
  
+ const allNotes = document.querySelector('.column .rows');
 
-//  const row = document.createElement('div');
-//  row.classList.add('row');
+ const row = document.createElement('div');
+ row.classList.add('row');
 
-//     const textDiv = document.createElement('div');
-//     textDiv.innerText = input.value;
+    const textDiv = document.createElement('div');
+    textDiv.innerText = 'Заметка 1';
  
-//     const penIcon = document.createElement('div');
-//     penIcon.classList.add('second');
+    const penIcon = document.createElement('div');
+    penIcon.classList.add('second');
  
-//     const fasFaPen = document.createElement('i');
-//     fasFaPen.classList.add('fas');
-//     fasFaPen.classList.add('fa-pen');
+    const fasFaPen = document.createElement('i');
+    fasFaPen.classList.add('fas');
+    fasFaPen.classList.add('fa-pen');
 
-//  const row = document.createElement('div');
-//  row.classList.add('row');
+ const row1 = document.createElement('div');
+ row1.classList.add('row');
 
-//      const textDiv = document.createElement('div');
-//     textDiv.innerText = input.value;
+     const textDiv1 = document.createElement('div');
+    textDiv1.innerText = 'Заметка 2';
  
-//     const penIcon = document.createElement('div');
-//     penIcon.classList.add('second');
+    const penIcon1 = document.createElement('div');
+    penIcon.classList.add('second');
  
-//     const fasFaPen = document.createElement('i');
-//     fasFaPen.classList.add('fas');
-//     fasFaPen.classList.add('fa-pen');
+    const fasFaPen1 = document.createElement('i');
+    fasFaPen.classList.add('fas');
+    fasFaPen.classList.add('fa-pen');
 
-//  const row = document.createElement('div');
-//  row.classList.add('row');
+ const row2 = document.createElement('div');
+ row2.classList.add('row');
  
-//      const textDiv = document.createElement('div');
-//     textDiv.innerText = input.value;
+     const textDiv2 = document.createElement('div');
+    textDiv2.innerText = 'Заметка 3';
  
-//     const penIcon = document.createElement('div');
-//     penIcon.classList.add('second');
+    const penIcon2 = document.createElement('div');
+    penIcon.classList.add('second');
  
-//     const fasFaPen = document.createElement('i');
-//     fasFaPen.classList.add('fas');
-//     fasFaPen.classList.add('fa-pen');
+    const fasFaPen2 = document.createElement('i');
+    fasFaPen.classList.add('fas');
+    fasFaPen.classList.add('fa-pen');
 
-//  const plusText = document.createElement('div');
-//  plusText.classList.add('plusText');
+  const row3 = document.createElement('div');
+ row3.classList.add('row');
+ 
+     const textDiv3 = document.createElement('div');
+    textDiv3.innerText = 'Заметка 4';
+ 
+    const penIcon3 = document.createElement('div');
+    penIcon.classList.add('second');
+ 
+    const fasFaPen3 = document.createElement('i');
+    fasFaPen.classList.add('fas');
+    fasFaPen.classList.add('fa-pen');
 
-//  const fieldText = document.createElement('div');
-//  fieldText.classList.add('fieldText');
 
-//  const inputText = document.createElement('input');
-//  inputText.classList.add('.plustext input[type=text]');
-
-//  const buttonAdd = document.createElement('button');
-//  const fasFaPlus = document.createElement('i');
-//  fasFaPen.classList.add('fas');
-//  fasFaPen.classList.add('fa-plus');
+    row.appendChild(textDiv);
+    row.appendChild(penIcon);
+    row1.appendChild(textDiv1);
+    row1.appendChild(penIcon1);
+    row2.appendChild(textDiv2);
+    row2.appendChild(penIcon2);
+    row3.appendChild(textDiv3);
+    row3.appendChild(penIcon3);
+    penIcon.appendChild(fasFaPen);
+    penIcon1.appendChild(fasFaPen1);
+    penIcon2.appendChild(fasFaPen2);
+    penIcon3.appendChild(fasFaPen3);
+    allNotes.appendChild(row);
+    allNotes.appendChild(row1);
+    allNotes.appendChild(row2);
+    allNotes.appendChild(row3);
