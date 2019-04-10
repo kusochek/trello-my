@@ -51,6 +51,7 @@
  }
   var note = `<div class="row"><div></div><div class="second"><i class="fas fa-pen"></i></div></div>`;
   notesData.innerHTML += note;
+  document.getElementById("demo").innerHTML = txt;
 
 // var notesData, items, text, i;
 // for (i=0; i < 8; i++) {
