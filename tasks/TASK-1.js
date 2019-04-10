@@ -47,11 +47,11 @@
  notesData.items.forEach(myFunction);
  function myFunction (value, index, array) {
   txt = txt + value + "<br>"; 
- }
-  var note = `<div class="row"><div></div><div class="second"><i class="fas fa-pen"></i></div></div>`;
+ 
+  var note = `<div class="row"><div>$(text.value)</div><div class="second"><i class="fas fa-pen"></i></div></div>`;
   notesData.innerHTML += note;
   document.getElementById("demo").innerHTML = txt;
-
+ }
 // var notesData, items, text, i;
 // for (i=0; i < 8; i++) {
 //  notesData.items += text + i + '<br>';
