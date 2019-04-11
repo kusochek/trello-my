@@ -7,7 +7,6 @@
 //  * Если у заметки флаг "highligh" установлен в true, нужно визуально (любым способом) выделять ее среди других
 //  */
 //  const notesData = document.querySelector('.column .rows');
- var txt = '';
  const notesData = {
    items: [
     {
@@ -44,14 +43,29 @@
     },
    ],
  }
- notesData.items.forEach(myFunction);
- function myFunction (value, index, array) {
-  txt = txt + value + "<br>"; 
+ for(var i=0; i < notesData.items.length; i++)
+ document.getElementById('demo').innerHTML = (notesData.items[i].text + "<br/>");
+
+
+//  notesData.items.forEach(myFunction);
+//  function myFunction (value, index, array) {
+//   notesData = value + "<br>"; 
+//   const row = document.createElement('div');
+//  row.classList.add('row');
+
+//     const textDiv = document.createElement('div');
+//     textDiv.innerText = 'Заметка 1';
  
-  var note = `<div class="row"><div>$(text.value)</div><div class="second"><i class="fas fa-pen"></i></div></div>`;
-  notesData.innerHTML += note;
-  document.getElementById("demo").innerHTML = txt;
- }
+//     const penIcon = document.createElement('div');
+//     penIcon.classList.add('second');
+ 
+//     const fasFaPen = document.createElement('i');
+//     fasFaPen.classList.add('fas');
+//     fasFaPen.classList.add('fa-pen');
+
+//   notesData.innerHTML += note;
+//   document.getElementById("demo").innerHTML = txt;
+//  }
 // var notesData, items, text, i;
 // for (i=0; i < 8; i++) {
 //  notesData.items += text + i + '<br>';
