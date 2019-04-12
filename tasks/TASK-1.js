@@ -6,7 +6,6 @@
 //  * В начале скрипта добавь тот обьект, что ниже и отрисуй список заметок из него. 
 //  * Если у заметки флаг "highligh" установлен в true, нужно визуально (любым способом) выделять ее среди других
 //  */
-//  const notesData = document.querySelector('.column .rows');
  const notesData = {
    items: [
     {
@@ -43,10 +42,34 @@
     },
    ],
  }
- for(var i=0; i < notesData.items.length; i++)
- document.getElementById('demo').innerHTML = (notesData.items[i].text + "<br/>");
+//  const allNotes = document.querySelector('.column .rows');
 
+ for(var i=0; i < notesData.items.length; i++) {
+ const entry = (notesData.items[i].text);
 
+//  if(notesData.items[0].highlight === true) {
+//  document.querySelector('row').style.color = 'red';
+  
+
+ const row = document.createElement('div');
+ row.classList.add('row');
+ row.innerText = entry ;
+    const penIcon = document.createElement('div');
+    penIcon.classList.add('second');
+ 
+    const fasFaPen = document.createElement('i');
+    fasFaPen.classList.add('fas');
+    fasFaPen.classList.add('fa-pen');
+
+    row.appendChild(penIcon);
+    penIcon.appendChild(fasFaPen);
+    
+document.getElementById('demo').appendChild(row);
+
+// }
+}
+
+//  document.getElementById('demo').innerHTML += (textP);
 //  notesData.items.forEach(myFunction);
 //  function myFunction (value, index, array) {
 //   notesData = value + "<br>"; 
