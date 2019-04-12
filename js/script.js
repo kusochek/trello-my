@@ -1,6 +1,6 @@
 // function newNote() {
 //     const input = document.querySelector('.plustext input[type=text]');
-//     const allNotes = document.querySelector('.column .rows');
+//     
 
 //     // const note = `<div class="row"><div>${input.value}</div><div class="second"><i class="fas fa-pen"></i></div></div>`;
 
