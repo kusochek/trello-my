@@ -43,6 +43,53 @@
    ],
  }
 
+ const listsData = [
+  {
+    items: [
+     {
+       text: "заметка 1",
+       highlight: false,
+     },
+     {
+       text: "заметка 2",
+       highlight: true,
+     },
+     {
+       text: "заметка 3",
+       highlight: false,
+     },
+    ],
+  },
+  {
+    items: [
+     {
+       text: "заметка 4",
+       highlight: false,
+     },
+     {
+       text: "заметка 5",
+       highlight: false,
+     },
+     {
+       text: "заметка 6",
+       highlight: true,
+     },
+    ],
+  },
+  {
+    items: [
+     {
+       text: "заметка 7",
+       highlight: true,
+     },
+     {
+       text: "заметка 8",
+       highlight: true,
+     }
+    ],
+  }
+ ];
+
  for(var i=0; i < notesData.items.length; i++) {
 
  const entry = (notesData.items[i].text);  
