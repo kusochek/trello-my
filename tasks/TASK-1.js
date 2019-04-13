@@ -61,7 +61,7 @@
 
  document.getElementById('demo').appendChild(row);
  if(notesData.items[i].highlight === true) {
- 
+//  row.classList.add('highlight');
  row.style.backgroundColor = myFunction()
 }
 }
