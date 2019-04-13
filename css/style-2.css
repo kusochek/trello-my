@@ -270,5 +270,7 @@ header input[type=text]:focus {
 .menu:hover {
     background-color: #34854b;
 }
-
+.highlight {
+    color: red;
+}
   

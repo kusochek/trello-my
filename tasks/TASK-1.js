@@ -42,15 +42,10 @@
     },
    ],
  }
-//  const allNotes = document.querySelector('.column .rows');
 
  for(var i=0; i < notesData.items.length; i++) {
- const entry = (notesData.items[i].text);
 
-//  if(notesData.items[0].highlight === true) {
-//  document.querySelector('row').style.color = 'red';
-  
-
+ const entry = (notesData.items[i].text);  
  const row = document.createElement('div');
  row.classList.add('row');
  row.innerText = entry ;
@@ -63,8 +58,19 @@
 
     row.appendChild(penIcon);
     penIcon.appendChild(fasFaPen);
-    
-document.getElementById('demo').appendChild(row);
 
-// }
+ document.getElementById('demo').appendChild(row);
+ if(notesData.items[i].highlight === true) {
+ 
+ row.style.backgroundColor = myFunction()
 }
+}
+function myFunction() {
+  var letters = '0123456789ABCDEF';
+  var color = '#';
+  for(var i = 0; i < 6; i++ ) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+const random = (myFunction())
