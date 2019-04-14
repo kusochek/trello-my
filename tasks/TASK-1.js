@@ -93,6 +93,7 @@
   }
  ];
 
+
  for(var i=0; i < notesData.items.length; i++) {
 
  const entry = (notesData.items[i].text);  
@@ -112,15 +113,18 @@
  document.getElementById('demo').appendChild(row);
  if(notesData.items[i].highlight === true) {
 //  row.classList.add('highlight');
- row.style.backgroundColor = myFunction()
-}
-}
+//  row.style.backgroundColor = myFunction();
 function myFunction() {
+  
   var letters = '0123456789ABCDEF';
   var color = '#';
-  for(var i = 0; i < 6; i++ ) {
-    color += letters[Math.floor(Math.random() * 16)];
-  }
-  return color;
+   for(var i = 0; i < 6; i++ ) {
+    color += letters[Math.floor(Math.random() * 16)]}
+
+    row.style.backgroundColor = color;
+  
 }
-const random = (myFunction())
+
+var myVar = setInterval(function(){myFunction()}, 1000);
+}
+}
